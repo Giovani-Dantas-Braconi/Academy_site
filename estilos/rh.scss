@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Righteous&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$orange_third: #F2B544;
+$orange_fifth: #F98439;
+$white: #ffffff;
+
+
+
+/* Header */
+header {
+  background-color: $orange_third;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rh {
+  position: absolute;
+  top: 52%;
+  left: 57%;
+}
+
+.rh img {
+  margin-top: -265px;
+  width: 450px;
+  height: 140px;
+  padding: 40px;
+}
+
+h1 {
+  display: flex;
+  margin-left: 120px;
+  color: $orange_fifth;
+  margin-top: 35px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Righteous;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  color: $white;
+  padding: 25px;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.rh_header_botao {
+  display: flex;
+  padding: 40px;
+  margin-left: 100px;
+  width: 250px;
+}
+
+/* Header - FIM */
+button {
+  width: 270px;
+  height: 50px;
+  background: $orange_fifth;
+  color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Righteous;
+  font-size: 18px;
+  border-style: none;
+}
+
+section {
+  background: $white;
+  height: 205px;
+}
+
+.rh_main_serv {
+  height: 500px;
+}
+
+.rh_main_cf-container {
+  margin-bottom: 100px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $orange_fifth;
+  margin-top: 35px;
+  font-size: 29,8px;
+  font-weight: 400;
+  font-family: Righteous;
+  text-align: center;
+  padding: 20px;
+}
+
+#rh_main_text_fun {
+  display: flex;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  padding: 40px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+#rh_main_serve {
+  width: 100%;
+  height: 100%;
+  background-color: $orange_third;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.rh_main_align {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rh_main_align p {
+  color: black;
+  width: 300px;
+}
+
+.rh_main_align img {
+  padding-left: 160px;
+}
+
+.img1 {
+  padding: 0px;
+}
+
+.img2 {
+  margin-left: 20px;
+  padding: 0px;
+}
+
+.img2 p {
+  margin-left: 125px;
+}
+
+.img3 {
+  padding: 0px;
+}
+
+.img1 img {
+  width: 150px;
+}
+
+.img2 img {
+  width: 150px;
+}
+
+.img3 img {
+  width: 150px;
+}
+
+p {
+  padding: 10px;
+}
+
+#text_neg {
+  margin-top: 150px;
+  color: black;
+  text-align: center;
+  margin-left: -160px;
+  font-size: 10px;
+  padding: 90px;
+}
+
+/* Responsabilidades - FIM */
+/* Ideal Para */
+#ideal {
+  justify-content: center;
+  margin-top: 60vh;
+  align-items: center;
+}
+
+/* Ideal Para - FIM */
+/* Serviços */
+h3 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $orange_fifth;
+  font-size: 30px;
+  font-family: Righteous;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.rh_main_circulo {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $orange_fifth;
+  margin: -70px;
+  margin-top: -5px;
+  position: absolute;
+}
+
+.rh_main_wrapper {
+  display: inline-block;
+  width: 270px;
+  height: 50px;
+  margin: 90px;
+  padding: 20px;
+  border: 3px solid $white;
+  margin-right: 25px;
+  border-radius: 15px;
+  position: relative;
+}
+
+#rh_main_box {
+  margin-top: -10px;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+#rh_main_img {
+  display: flex;
+  margin-top: 5px;
+  margin: 1px;
+  padding: 15px;
+}
+
+/*/Responsivo/*/
+@media (max-width: 1300px) {
+  .rh{
+      left: 50%;
+  }
+
+  .rh_main_align{
+
+      display: flex;
+      flex-direction: column;
+     
+  }
+
+  .rh_main_align p{
+      font-size: 12px;
+  }
+ 
+ 
+
+}
+
+@media (max-width:1000px) {
+  .rh{
+      display: none;
+  }
+
+}
+
+@media (max-width:800px) {
+  .rh{
+      display: flex;
+  }
+
+  .rh img{
+      margin-top: -300px;
+      margin-left: -230px;
+      padding: 0px
+  }
+ 
+  .rh_header_info{
+      margin-top: 150px;
+  }
+
+  .rh_main_cf-container{
+      height: 60%
+  }
+
+
+ .rh_main_align{
+      gap: 20px;
+ }
+
+ .rh_main_serv{
+  height: 1500px;
+ }
+
+
+}
+@media (max-width:428px) {
+
+  /* Header */
+  header {
+      width: 100%;
+      padding: 5px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .rh {
+      display: flex;
+  }
+
+  .rh img {
+      margin-top: -330px;
+      margin-left: -160px;
+      width: 320px;
+  }
+
+  .rh_header_info {
+      margin-left: -80px;
+    
+  }
+
+
+
+  /* Header - FIM*/
+
+  /* Como funciona */
+
+
+  /* Como funciona - FIM */
+
+  /* Serviço  */
+
+  .rh_main_serv {
+      height: 950px;
+      width: 450px;
+  }
+
+
+
+  .rh_main_wrapper {
+      width: 200px;
+      height: 40px;
+  }
+
+  #rh_main_box {
+      margin-top: -15px;
+  }
+
+
+  /* Serviço - FIM */
+
+  /* Responsabilidades */
+  .rh_main_align {
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .img1 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img2 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img3 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img1 img {
+      width: 150px;
+  }
+
+  .img2 img {
+      width: 150px;
+       margin-left: 10px;
+  }
+
+  .img3 img {
+      width: 150px;
+  }
+
+     .rh_main_bnf1{
+    padding: 0px;
+    margin-left: 130px;
+  }
+
+  }
+  .rh_main_bnf3{
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  .img2 p{
+    margin-left: 82px;
+  }
+.rh_main_ideal1{
+  padding: 0px;
+  margin-left: 90px;
+}
+
+.rh_main_ideal2{
+  padding: 0px;
+  margin-left: 290px;
+}
+
+.rh_main_ideal3{
+  margin-left: 90px;
+  padding: 0px;
+}
+
+  p {
+   text-align: center;
+      padding: 10px;
+  }
+
+  /* Responsabilidades - FIM*/
+}
+@media (max-width:400px) {
+
+  /* Header */
+  header {
+      width: 100%;
+      padding: 5px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .rh {
+      display: flex;
+  }
+
+  .rh img {
+      margin-top: -330px;
+      margin-left: -160px;
+      width: 320px;
+  }
+
+  .rh_header_info {
+      margin-top: 150px;
+      margin-left: -100px;
+  }
+
+  /* Header - FIM*/
+
+  /* Como funciona */
+
+  .rh_main_cf-container {
+      height: 100%;
+      margin-bottom: 0px;
+  }
+
+  /* Como funciona - FIM */
+
+  /* Serviço  */
+
+  .rh_main_serv {
+      height: 950px;
+      width: 390px;
+  }
+
+
+
+  .rh_main_wrapper {
+      width: 200px;
+      height: 40px;
+  }
+
+  #rh_main_box {
+      margin-top: -15px;
+  }
+
+
+  /* Serviço - FIM */
+
+  /* Responsabilidades */
+  .rh_main_align {
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .img1 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img2 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img3 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img1 img {
+      width: 150px;
+  }
+
+  .img2 img {
+      width: 150px;
+       margin-left: 10px;
+  }
+
+  .img3 img {
+      width: 150px;
+  }
+
+     .rh_main_bnf1{
+    padding: 0px;
+    margin-left: 130px;
+  }
+
+  }
+  .rh_main_bnf3{
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  .img2 p{
+    margin-left: 82px;
+  }
+.rh_main_ideal1{
+  padding: 0px;
+  margin-left: 90px;
+}
+
+.rh_main_ideal2{
+  padding: 0px;
+  margin-left: 290px;
+}
+
+.rh_main_ideal3{
+  margin-left: 90px;
+  padding: 0px;
+}
+
+  p {
+      text-align: center;
+      padding: 10px;
+  }
+
+  /* Responsabilidades - FIM*/
+}
+
+@media (max-width:320px) {
+
+  /* Header */
+  header {
+      width: 100%;
+      padding: 5px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .rh {
+      display: flex;
+  }
+
+  .rh img {
+      margin-top: -200px;
+      margin-left: -130px;
+      width: 240px;
+  }
+
+  p{
+      font-size: clamp(1em, 1em + 1vw, 1.25em);
+  }
+
+  /* Header - FIM*/
+
+  /* Como funciona */
+
+  .rh_main_cf-container {
+      height: 100%;
+      margin-bottom: 0px;
+  }
+
+  /* Como funciona - FIM */
+
+  /* Serviço  */
+  h3{
+      margin-left: -40px;
+  }
+  .rh_main_serv {
+      height: 950px;
+      width: 385px;
+  }
+
+
+
+  .rh_main_wrapper {
+      margin-left: 60px;
+      width: 200px;
+      height: 40px;
+  }
+
+  #rh_main_box {
+      margin-top: -15px;
+  }
+
+
+  /* Serviço - FIM */
+
+  /* Responsabilidades */
+  .rh_main_align {
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .img1 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img2 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img3 {
+      margin-left: -60px;
+      padding: 0px;
+  }
+
+  .img1 img {
+      width: 150px;
+  }
+
+  .img2 img {
+      width: 150px;
+       margin-left: 10px;
+  }
+
+  .img3 img {
+      width: 150px;
+  }
+
+  p {
+      padding: 10px;
+  }
+
+  /* Responsabilidades - FIM*/
+}

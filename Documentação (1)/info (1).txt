@@ -1,0 +1,48 @@
+Telas site do Academy One
+
+BPO - Feito (text-align center)
+390px feito
+428px feito
+375px feito
+360px feito (wrapper margin-left)
+
+CLOUD - ARRUMAR TUDO
+
+ESG -
+Desktop - arrumar dois paragrafros 
+390px - Arrumar header, Arrumar paragrafos, Arrumar wrapper
+428px - Arrumar header, Arrumar paragrafos, Arrumar wrapper
+375px - Arrumar header, Arrumar paragrafos, Arrumar wrapper
+360px - Arrumar header, Arrumar paragrafos, Arrumar wrapper
+
+GET - Feito (text-align center)
+
+LOWCODE - Colocar o todos os textos e titulos (pegar no figma)
+
+MKT - 
+390px - Alinhar botao e text-align center
+428px - Arrumar o header (botao e texto e img)
+375px - Alinhar botao e text-align center
+360px - Alinhar botao e text-align center
+
+PMO - 
+Desktop - arrumar os parafrafos margin-left
+390px - Alinhar botao e text-align center e ajeitar os paragrafos
+428px - Alinhar botao e text-align center e ajeitar os paragrafos
+375px - Alinhar botao e text-align center e ajeitar os paragrafos
+360px - Alinhar botao e text-align center e ajeitar os paragrafos
+
+QUALIDADE -
+Desktop - Alinhar um paragrafro text-align center
+390px - Alinhar botao e text-align center e ajeitar os paragrafos
+428px - Alinhar botao e text-align center e ajeitar os paragrafos
+375px - Alinhar botao e text-align center e ajeitar os paragrafos
+360px - Alinhar botao e text-align center e ajeitar os paragrafos
+
+RH - feito (text-align center)
+
+SDR - feito (text-align center)
+Responsivo ( ajeitar o header e os paragrafos
+
+
+
